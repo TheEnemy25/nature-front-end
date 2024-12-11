@@ -2,7 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Main from './pages/main/Main';
+import AnimalPage from './pages/animal/AnimalPage';
+import PlantPage from './pages/plant/PlantPage';
+import MainPage from './pages/main/MainPage';
 
 function App() {
   return (
@@ -14,7 +16,10 @@ function App() {
 
         <main className="wrapper" style={{ flex: 1 }}>
           <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="/" element={<MainPage />} />
+            <Route path="/plants" element={<PlantPage />} />
+            <Route path="/animals" element={<AnimalPage />} />
+
           </Routes>
         </main>
         <Footer />
