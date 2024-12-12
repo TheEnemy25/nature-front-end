@@ -23,3 +23,33 @@ body,
   height: 100vh;
   width: 100%;
 }
+
+.actors-admin__table {
+  border-collapse: separate;
+  min-width: 99%;
+  max-width: 100%;
+  table-layout: fixed;
+  overflow-x: auto;
+  margin: 0 auto;
+}
+
+.actors-admin__table-row {
+}
+
+.actors-admin__table-header {
+  border: 1.5px solid white;
+  padding: 10px 5px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.actors-admin__table-cell {
+  border: 1.5px solid white;
+  padding: 10px 5px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
+}

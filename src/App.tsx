@@ -5,6 +5,9 @@ import Footer from './components/Footer/Footer';
 import AnimalPage from './pages/animal/AnimalPage';
 import PlantPage from './pages/plant/PlantPage';
 import MainPage from './pages/main/MainPage';
+import PlantDetailsPage from './pages/plant/PlantDetailsPage';
+import AnimalDetailsPage from './pages/animal/AnimalDetailsPage';
+import WeatherPage from './pages/weatherPage/WeatherPage';
 
 function App() {
   return (
@@ -20,6 +23,10 @@ function App() {
             <Route path="/plants" element={<PlantPage />} />
             <Route path="/animals" element={<AnimalPage />} />
 
+            <Route path="/plant/:id" element={<PlantDetailsPage />} />
+            <Route path="/animal/:id" element={<AnimalDetailsPage />} />
+
+            <Route path="/weather" element={<WeatherPage />} />
           </Routes>
         </main>
         <Footer />

@@ -2,7 +2,10 @@ import APIConfig from "../configuration/APIConfig";
 
 const APIRoutes = {
     animalControllerUrl: () => APIConfig.URL + "api/Animal",
-    movieControllerUrl: () => APIConfig.URL + "api/Movie",
+    plantControllerUrl: () => APIConfig.URL + "api/Plant",
+
+    habbitatControllerUrl: () => APIConfig.URL + "api/Habbitat",
+
 
 };
 

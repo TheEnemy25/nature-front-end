@@ -8,6 +8,7 @@ type Plant = {
     name: string;
     species: string;
     description: string;
+    photoUrl?: string;
 
     //Relationships
     habitats: Habitat[];
